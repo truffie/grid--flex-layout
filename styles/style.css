@@ -47,7 +47,7 @@ h1 {
 
 }
 .header__logo {
-  background: url(/img/Logo.svg) no-repeat;
+  background: url(../img/Logo.svg) no-repeat;
   background-size: contain;
   width: 40px;
   height: 40px;
@@ -98,14 +98,14 @@ input::placeholder {
 }
 
 .panel__settings {
-  background: url(/img/settings.svg) no-repeat;
+  background: url(../img/settings.svg) no-repeat;
   background-position: center;
   width: 20px;
   height: 20px;
 }
 
 .panel__notifications {
-  background: url(/img/Notifications.svg) no-repeat;
+  background: url(../img/Notifications.svg) no-repeat;
   background-position: center;
   width: 20px;
   height: 20px;
@@ -165,7 +165,7 @@ input::placeholder {
 
 .slider__prev-btn {
   background-position: center;
-  background: url(/img/prev.svg) no-repeat;
+  background: url(../img/prev.svg) no-repeat;
   background-size: contain;
   background-position-x: 4px;
 
@@ -173,7 +173,7 @@ input::placeholder {
 }
 
 .slider__next-btn {
-  background: url(/img/next.svg) no-repeat;
+  background: url(../img/next.svg) no-repeat;
   background-size: contain;
   background-position: center;
 
