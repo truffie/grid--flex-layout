@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:regular,600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__logo"><a href="index.html" title="home"></a href="index.html"></div>
+      <div class="header__search ">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="header__panel">
+        <div class="panel__settings">
+        </div>
+        <div class="panel__notifications"></div>
+        <p class="panel__username text">Hanna Pleshko</p>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="wrapper">
+      <div class="main__info">
+        <h1>Daily</h1>
+        <div class="info__schedule">
+          <div class="schedule__slider">
+            <div class="slider__prev-btn "></div>
+            <div class="slider__date text">May 27, 2023</div>
+            <div class="slider__next-btn "></div>
+          </div>
+          <div class="schedule__buttons">
+            <div class="buttons__providers button">All providers</div>
+            <div class="buttons__appointment button button-colored">New appointment</div>
+          </div>
+        </div>
+        <div class="info__filters">
+          <div class="filters__filter-items">
+            <p class="filter-item text">Provider</p>
+            <p class="filter-item text">Developer</p>
+            <p class="filter-item text">Status</p>
+          </div>
+          <div class="filters__clear-btn text">clear filters</div>
+        </div>
+      </div>
+      <div class="main__table">
+        <div class="table__time table__column">
+          <div class="table__header table__header--focus">start time</div>
+          <div class="time-item">08:00</div>
+          <div class="time-item">09:00</div>
+          <div class="time-item">09:20</div>
+          <div class="time-item">10:00</div>
+          <div class="time-item">11:00</div>
+          <div class="time-item">12:00</div>
+          <div class="time-item">12:20</div>
+        </div>
+        <div class="table__patients table__column">
+          <div class="table__header ">Patients</div>
+          <div class="patients__name text">Cameron Williamson</div>
+          <div class="patients__name text">Jacob Jones</div>
+          <div class="patients__name text">Kristin Watson</div>
+          <div class="patients__name text">Esther Howard</div>
+          <div class="patients__name text">Heidi Moor</div>
+          <div class="patients__name text">Ronald Richards</div>
+          <div class="patients__name text">Darrell Steward</div>
+        </div>
+        <div class="table__providers table__column">
+          <div class="table__header ">Providers</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+          <div class="providers__name text">Hanna Pleshko</div>
+        </div>
+        <div class="table__status table__column">
+          <div class="table__header ">Status</div>
+          <div class="status__item ">
+            <p class="checked-out">Checked out</p>
+          </div>
+          <div class="status__item ">
+            <p class="checked-in">Checked in</p>
+          </div>
+          <div class="status__item ">
+            <p class="checked-in">Checked in</p>
+          </div>
+          <div class="status__item ">
+            <p class="confirmed">Confirmed</p>
+          </div>
+          <div class="status__item ">
+            <p class="cancelled">Cancelled</p>
+          </div>
+          <div class="status__item ">
+            <p class="confirmed">Confirmed</p>
+          </div>
+          <div class="status__item ">
+            <p class="scheduled">Scheduled</p>
+          </div>
+
+        </div>
+        <div class="table__actions table__column">
+          <div class="table__header ">Actions</div>
+          <div class="actions__item text--link">Open encounter</div>
+          <div class="actions__item text--link">Start encounter</div>
+          <div class="actions__item text--link">Join room & start</div>
+          <div class="actions__item text--link">Open encounter</div>
+          <div class="actions__item text--link"></div>
+          <div class="actions__item text--link">Open encounter</div>
+          <div class="actions__item text--link"></div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
